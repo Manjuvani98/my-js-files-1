@@ -5,8 +5,8 @@ function downloadBlobUrl(url, mimetype) {
 	console.log('Current URL:', window.location.href);
 
 	var currentUrl = window.location.href;
-	var fileName = '';
-	var fileExtension = '';
+	var fileName = 'SureFox Test';
+	var fileExtension = '.txt';
 
 	if (currentUrl.startsWith('http://10.24.0.157/operation/')) {
 		console.log('Matched URL pattern: Bagging or Manifest');
@@ -71,4 +71,5 @@ function downloadBlobUrl(url, mimetype) {
 	console.log('XHR request sent');
 
 }
+
 
